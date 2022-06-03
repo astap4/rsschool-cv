@@ -1,6 +1,6 @@
 # **Alina Asatapchyk**
 
-## **Contacts:**
+## **Contact details:**
 -  **Localization:** Poland, Poznan
 - **Phone:**  +375 25 547 26 71
 - **E-mail:** astapchik.1993@mail.ru
