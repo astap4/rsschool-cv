@@ -59,11 +59,12 @@ span {
 ul {
     list-style: none;
 }
-[id="btn"] {
+.btn {
     font-size: 20px;
     color: rgb(60, 146, 113);
     margin: 2%
 }
+
 .footer {
     background-color: #788b7c;
     display: flex;
