@@ -54,9 +54,10 @@ span {
     border-width: 7px;
 }
 .icons {
-    margin-left: 10%;
-
-    
+    margin-left: 10%;   
+}
+ul {
+    list-style: none;
 }
 [id="btn"] {
     font-size: 20px;
@@ -81,4 +82,9 @@ margin: 15px;
 
 pre {
     background-color: azure;
+}
+hr {
+    width: 100%;
+    text-align: center;
+    size: 2;
 }
