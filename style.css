@@ -18,13 +18,32 @@ h1 {
     color: #396341;
     font-size: 30px;
 }
+h2 {
+    color: #396341;
+    font-size: 20px;
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: beige;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: #396341;;
+}
 .container {
     display: flex; 
 }
 .header {
     margin: 30px;
     width: 30%;
-    height: 1900px;
     border-right:2px solid #396341;
 }
 .main {
@@ -54,20 +73,32 @@ ul {
     color: rgb(60, 146, 113);
     margin: 2%
 }
-.footer {
-    background-color: #788b7c;
+.project {
     display: flex;
-    height: 115px;
+    justify-content: space-around;
+}
+.project-image {
+    width: 200px;
+    height: 70%;
+}
+.footer {
+    background-color: rgb(83, 144, 121);
+    display: flex;
+    height: 60px;
+    padding: 20px;
+}
+.footer-git {
+    width: 20%;
+}
+.footer .btn {
+    color: black;
 }
 .footer-text {
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
-.footer-right {
-margin: 15px;
-}
 pre {
-    background-color: azure;
+    background-color: white;
 }
 hr {
     width: 100%;
