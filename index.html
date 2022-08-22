@@ -114,19 +114,19 @@
                 <div id="projects">
                     <div class="btn fas fa-book"></div><span>Projects</span>
                     <div class="project">
-                        <div class="book">
-                            <img class="project-image" src="./image/bookstore.png" alt="bookstore">
-                            <p><a href="https://github.com/astap4/Drzewo-wiedzy">Book Store</a></p>
+                        <div class="momentum">
+                            <img class="project-image" src="./image/momentum.png" alt="cv">
+                            <p><a href="https://rolling-scopes-school.github.io/astap4-JSFEPRESCHOOL2022Q2/Momentum/">Momentum</a></p>
+                        </div>
+                        <div class="travel">
+                            <img class="project-image" src="./image/travel.png" alt="bookstore">
+                            <p><a href="https://rolling-scopes-school.github.io/astap4-JSFEPRESCHOOL2022Q2/Travel/">Travel</a></p>
                         </div>
                         <div class="shelter">
                             <img class="project-image" src="./image/shelter.png" alt="shelter">
                             <p><a
-                                    href="https://rolling-scopes-school.github.io/astap4ik69-JSFE2022Q1/Shelter/pages/main/">Shelter</a>
+                                href="https://rolling-scopes-school.github.io/astap4ik69-JSFE2022Q1/Shelter/pages/main/">Shelter</a>
                             </p>
-                        </div>
-                        <div class="book">
-                            <img class="project-image" src="./image/1.jpg" alt="cv">
-                            <p><a href="#">This CV</a></p>
                         </div>
                     </div>
                 </div>
@@ -135,16 +135,16 @@
                     <div class="btn fas fa-book-open"></div><span>Skills</span>
                     <ul>
                         <li>
+                            Java Script
+                        </li>
+                        <li>
                             HTML, CSS
                         </li>
                         <li>
                             Git, GitHub
                         </li>
                         <li>
-                            JavaScript Basics
-                        </li>
-                        <li>
-                            Python Basic
+                            Python, Java Basics
                         </li>
                         <li>
                             Adobe Photoshop, Figma, Adobe Illustrator
@@ -156,26 +156,20 @@
                     <div class="btn fas fa-code"></div><span>Code example</span>
                     <pre>
                   <code>
-                    var swiper = new Swiper(".slider", {
-                        loop: true,
-                        spaceBetween: 20,
-                        autoplay: {
-                            delay: 7500,
-                            disableOnInteraction: false,
-                        },
-                        centeredSlides: true,
-                        breakpoints: {
-                            0: {
-                                slidesPerView: 1,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                            },
-                            1020: {
-                                slidesPerView: 3,
-                            },
-                        },
-                    });
+                    function rgb(r, g, b){
+                        let arr = [r,g,b]
+                        for (let i = 0; i < arr.length; i++){
+                          if (arr[i] > 255)
+                            arr[i] = 255
+                          else if (arr[i] < 0)
+                            arr[i] = 0
+                            arr[i] = arr[i].toString(16)
+                          if (arr[i].length == 1)
+                            arr[i]= '0' + arr[i]
+                        } 
+                        let hex = arr.join('').toUpperCase()
+                        return hex
+                      }
                   </code>
               </pre>
                 </div>
