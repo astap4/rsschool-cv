@@ -155,7 +155,17 @@
                 <div id="code">
                     <div class="btn fas fa-code"></div><span>Code example</span>
                     <pre>
-                  <code></code>
+                  <code>
+                    let Singleton = (function(){
+                        let instance;
+                        return function getInstance() {
+                          if (instance) 
+                            return instance;
+                          else
+                            instance = this;
+                        }
+                      })();
+                  </code>
               </pre>
                 </div>
             </div>
