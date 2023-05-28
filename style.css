@@ -22,14 +22,12 @@ body {
     font-weight: 700;
 }
 
-.navigation {
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 2%;
-        align-items: center;
-    }
+.navigation>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: center;
 }
 
 .main {
@@ -103,11 +101,8 @@ span::after {
     border-radius: 50%;
     overflow: hidden;
     margin: 5% auto;
-}
-
-.my-photo-img {
-    width: 100%;
-    height: 100%;
+    background-image: url('./assets/avatar.jpg');
+    background-size: cover;
 }
 
 ul {
@@ -128,7 +123,7 @@ ul {
 }
 
 section {
-    padding: 1.5% 0; 
+    padding: 1.5% 0;
 }
 
 #projects,
@@ -155,10 +150,11 @@ section {
     flex-direction: column;
     background-color: #FAFAFA;
     border-radius: 10px;
-    &:hover {
-        box-shadow: 0 14px 28px rgba(82, 79, 79, 0.25), 0 10px 10px rgba(83, 81, 81, 0.22);
-        cursor: pointer;
-    }
+}
+
+.project:hover {
+    box-shadow: 0 14px 28px rgba(82, 79, 79, 0.25), 0 10px 10px rgba(83, 81, 81, 0.22);
+    cursor: pointer;
 }
 
 .project-img {
@@ -173,9 +169,9 @@ section {
 }
 
 .footer-logo {
-    background-image: url('./src/assets/rsschooljs.svg');
+    background-image: url('./assets/rsschooljs.svg');
     width: 120px;
-    height:65px;
+    height: 65px;
     background-repeat: no-repeat;
 }
 
