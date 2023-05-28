@@ -11,12 +11,7 @@
 -----
 
 ## **About Myself:**
-I'm a person of action with analytical mindset aiming to manage continuous improvement in any environment.
-
-I graduated from BSEU and worked for 6 years as an economist in finance. Well, at a certain point, I became bored and uninterested in developing further in this area. I also studied for two years as a graphic artist and was engaged in digital painting.
-
-And now I decided to try myself as a *developer*. 
-I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+I'm a high organized and self-motivated person, who is interested in frontend development. A lot of my skills in this sphere were acquired by self-learning. Now I am continuing my studies at the university in Poland, where I have already acquired programming skills.Along with my excellent interpersonal skills and outgoing nature, I excel at collaborating effectively within a team. My determination is a driving force, motivating me to complete projects efficiently and promptly.
 
 ----
 ##  **Education:**
@@ -26,47 +21,43 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 - University of Economics in Poznan
   
-  *Specialization: Electronic business*
+  *Specialization: Informatics and econometrics*
 ----
 
+##  **Courses:**
+- RSSchool
+
+   *JavaScript/Front-end": in progress*
+
+- IT-Academy
+  
+  *Web application development in JavaScript*
 ## **Languages:**
-- **English** - Upper-intermediate
+- **English** - B2
 - Russian - Native
-- Polish – Fluent
-- German – Basic
+- Polish – B2
+- German – A2
 
 ___
 
 ## **Skills:**
 
-- HTML
-- CSS
+- JavaScript
+- HTML5, CSS3
 - Git, GitHub
-- JavaScript Basics
-- Java Basics
-- Python Basics 
-- Adobe Photoshop 
+- SASS
+- Java, Python Basics 
+- Adobe Photoshop, Figma
 
 ----
 
 ## **Code example:**
-```var swiper = new Swiper(".slider", {
-    loop: true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    centeredSlides: true,
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        768: {
-            slidesPerView: 2,
-        },
-        1020: {
-            slidesPerView: 3,
-        },
-    },
-});```
+      function nthFibo(n) {
+        let arr = [0,1];
+        if(n==1) return 0;
+        else if(n==2) return 1;
+        for (let i = 2; i<=n; i++){
+          arr[i] = (arr[i-1]) + (arr[i-2])
+        }
+        return arr[arr.length-2]
+      }
