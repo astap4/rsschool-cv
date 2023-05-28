@@ -1,111 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
 }
+
 body {
-    background-color: #f4f4f4;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
 }
+
 .container-main {
-    margin: 20px auto;
-    background-color: #f2f1e5;
+    margin: 0 auto;
     box-shadow: 20px 30px 40px -7px rgb(0 0 0 / 23%);
     width: 70%;
 }
+
+.header {
+    background-color: orange;
+    font-weight: 700;
+}
+
+.navigation {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 2%;
+        align-items: center;
+    }
+}
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    padding: 0 3%;
+    background-color: #322e2c;
+    color: white;
+    width: 30%;
+}
+
+.right-col {
+    width: 70%;
+}
+
+.wrapper {
+    padding: 0 3%;
+}
+
 h1 {
-    font-style:unset;
+    color: orange;
     text-align: center;
-    color: #396341;
     font-size: 30px;
 }
+
 h2 {
-    color: #396341;
     font-size: 20px;
     text-align: center;
 }
-.navigation ul {
-    display: flex;
-    justify-content: space-around;
-    background-color: beige;
-    margin: 20px 0;
-    padding: 10px;
-    align-items: center;
-}
+
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
+
 a:hover {
     text-decoration: underline;
-    color: #396341;;
 }
-.container {
-    display: flex; 
+
+.contacts {
+    margin: 5% 0;
 }
-.header {
-    margin: 30px;
-    width: 30%;
-    border-right:2px solid #396341;
+
+.title {
+    margin: 3% 0;
 }
-.main {
-    width: 70%;
-    margin: 30px;
+
+.subtitle {
+    font-weight: 700;
 }
+
 span {
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 700;
 }
-.image {
-    width: 220px;
-    margin: 30px;
-    border-style: solid;
-    border-color: rgb(60, 146, 113);
-    border-radius: 2%;
-    border-width: 7px;
+
+span::after {
+    content: '';
+    display: block;
+    width: 80px;
+    max-width: 70%;
+    border-bottom: 2px solid #fda80c;
+    margin: 3px 20px;
 }
-.icons {
-    margin-left: 10%;   
+
+.my-photo {
+    height: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5% auto;
 }
+
+.my-photo-img {
+    width: 100%;
+    height: 100%;
+}
+
 ul {
+    line-height: 1.4;
+    padding: 0;
     list-style: none;
 }
+
 .btn {
     font-size: 20px;
-    color: rgb(60, 146, 113);
-    margin: 2%
+    margin: 2%;
+    color: orange;
 }
-.project {
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 1.5% 0; 
+}
+
+#projects,
+#about,
+#code {
+    background-color: #F6F6F6;
+}
+
+.column {
+    width: 48%;
+}
+
+.projects {
     display: flex;
     justify-content: space-around;
+    column-gap: 5%;
+    row-gap: 15px;
+    text-align: center;
+    flex-wrap: wrap;
 }
-.project-image {
-    width: 200px;
-    height: 70%;
-}
-.project p {
-    margin-left: 60px;
-}
-.footer {
-    background-color: rgb(83, 144, 121);
+
+.project {
     display: flex;
-    height: 60px;
-    padding: 20px;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    &:hover {
+        box-shadow: 0 14px 28px rgba(82, 79, 79, 0.25), 0 10px 10px rgba(83, 81, 81, 0.22);
+        cursor: pointer;
+    }
 }
+
+.project-img {
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.project-title {
+    letter-spacing: 0.06em;
+    color: black;
+}
+
+.footer-logo {
+    background-image: url('./src/assets/rsschooljs.svg');
+    width: 120px;
+    height:65px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 0 2%;
+    font-weight: 700;
+}
+
+.btn-footer {
+    color: black;
+}
+
 .footer-git {
     width: 20%;
 }
-.footer .btn {
-    color: black;
-}
+
 .footer-text {
     width: 70%;
     text-align: center;
 }
-pre {
-    background-color: white;
-}
-hr {
-    width: 100%;
-    text-align: center;
-    size: 2;
+
+@media screen and (max-width: 750px) {
+    .container-main {
+        margin: 0 auto;
+        box-shadow: 20px 30px 40px -7px rgb(0 0 0 / 23%);
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-col {
+        padding: 0 3%;
+        width: 100%;
+    }
+
+    .right-col {
+        padding: 0;
+        width: 100%;
+    }
 }
