@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+}
+
+.container-main {
+    margin: 0 auto;
+    box-shadow: 20px 30px 40px -7px rgb(0 0 0 / 23%);
+    width: 70%;
+}
+
+.header {
+    background-color: orange;
+    font-weight: 700;
+}
+
+.navigation>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    padding: 0 3%;
+    background-color: #322e2c;
+    color: white;
+    width: 30%;
+}
+
+.right-col {
+    width: 70%;
+}
+
+.wrapper {
+    padding: 0 3%;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contacts {
+    margin: 5% 0;
+}
+
+.title {
+    margin: 3% 0;
+}
+
+.subtitle {
+    font-weight: 700;
+}
+
+span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+span::after {
+    content: '';
+    display: block;
+    width: 80px;
+    max-width: 70%;
+    border-bottom: 2px solid #fda80c;
+    margin: 3px 20px;
+}
+
+.my-photo {
+    height: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5% auto;
+    background-image: url('./assets/avatar.jpg');
+    background-size: cover;
+}
+
+ul {
+    line-height: 1.4;
+    padding: 0;
+    list-style: none;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 2%;
+    color: orange;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 1.5% 0;
+}
+
+#projects,
+#about,
+#code {
+    background-color: #F6F6F6;
+}
+
+.column {
+    width: 48%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5%;
+    row-gap: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.project:hover {
+    box-shadow: 0 14px 28px rgba(82, 79, 79, 0.25), 0 10px 10px rgba(83, 81, 81, 0.22);
+    cursor: pointer;
+}
+
+.project-img {
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.project-title {
+    letter-spacing: 0.06em;
+    color: black;
+}
+
+.footer-logo {
+    background-image: url('./assets/rsschooljs.svg');
+    width: 120px;
+    height: 65px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 0 2%;
+    font-weight: 700;
+}
+
+.btn-footer {
+    color: black;
+}
+
+.footer-git {
+    width: 20%;
+}
+
+.footer-text {
+    width: 70%;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .container-main {
+        margin: 0 auto;
+        box-shadow: 20px 30px 40px -7px rgb(0 0 0 / 23%);
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-col {
+        padding: 0 3%;
+        width: 100%;
+    }
+
+    .right-col {
+        padding: 0;
+        width: 100%;
+    }
+}
