@@ -2,7 +2,7 @@
 
 ## **Contact details:**
 -  **Localization:** Poland, Poznan
-- **Phone:**  +375 25 547 26 71
+- **Phone:**  +48 692 840 972
 - **E-mail:** astapchik.1993@mail.ru
 - **Telegram:** @AlinaAstap
 - [**Linkedin**](https://www.linkedin.com/in/alina-astapchyk-a72909146/)

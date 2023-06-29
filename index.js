@@ -1,10 +1,5 @@
 const projects = [
   {
-    title: 'Travel',
-    imageSrc: './assets/travel.png',
-    url: 'https://rolling-scopes-school.github.io/astap4-JSFEPRESCHOOL2022Q2/Travel/'
-  },
-  {
     title: 'Shelter',
     imageSrc: './assets/shelter.png',
     url: 'https://rolling-scopes-school.github.io/astap4-JSFE2023Q1/Shelter/'
@@ -17,7 +12,7 @@ const projects = [
   {
     title: 'Minesweeper',
     imageSrc: './assets/minesweeper.png',
-    url: 'https://rolling-scopes-school.github.io/astap4-JSFE2023Q1/minesweeper/'
+    url: 'https://astap4-minesweeper.netlify.app/#Game'
   },
   {
     title: 'Online-shop',
@@ -29,14 +24,13 @@ const projects = [
     imageSrc: './assets/puzzle.png',
     url: 'https://rolling-scopes-school.github.io/astap4-JSFE2022Q3/puzzle/'
   },
+  {
+    title: 'Travel',
+    imageSrc: './assets/travel.png',
+    url: 'https://rolling-scopes-school.github.io/astap4-JSFEPRESCHOOL2022Q2/Travel/'
+  },
 ]
 
-// const imageContainer = document.querySelector('.my-photo')
-// const myImage = document.createElement('img');
-// myImage.classList.add('my-photo-img')
-// myImage.src = js_image;
-
-// imageContainer.append(myImage);
 
 const projectsContainer = document.querySelector('.projects')
 
