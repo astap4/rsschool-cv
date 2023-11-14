@@ -72,8 +72,8 @@ ___
       }
 
 ## **Experience:**
-[**Codewars (5 kyu)**](https://www.codewars.com/users/rsschool_ef7701481414650e)
-[**learn.javascript**](https://learn.javascript.ru/)
+- [**Codewars (5 kyu)**](https://www.codewars.com/users/rsschool_ef7701481414650e)
+- [**learn.javascript**](https://learn.javascript.ru/)
 
 **Projects**:
 
