@@ -96,8 +96,8 @@ span::after {
 }
 
 .my-photo {
-    height: 250px;
-    max-width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     overflow: hidden;
     margin: 5% auto;
