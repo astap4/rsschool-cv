@@ -8,11 +8,12 @@
   <title>CV</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="shortcut icon" href="./assets/1.jpg">
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container-main">
-    <div class="header">
+    <header class="header">
       <nav class="navigation">
         <ul>
           <li><a href="#education">Education</a></li>
@@ -24,13 +25,13 @@
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
-    </div>
-    <div class="main">
+    </header>
+    <main class="main">
       <div class="left-col">
         <div class="my-photo"></div>
         <h1>Alina Astapchyk</h1>
         <h2>Future Front-end Developer</h2>
-        <section class="contacts">
+        <div class="contacts">
           <ul>
             <li>
               <div class="btn fas fa-map-marker-alt"></div>
@@ -57,11 +58,11 @@
               <a href="https://github.com/astap4">astap4</a>
             </li>
           </ul>
-        </section>
+        </div>
         <section id="skills">
-          <div class="title">
+          <h3 class="title">
             <div class="btn fas fa-book-open"></div><span>Skills</span>
-          </div>
+          </h3>
           <ul>
             <li>Java Script</li>
             <li>HTML5, CSS3</li>
@@ -72,9 +73,9 @@
           </ul>
         </section>
         <section id="languages">
-          <div class="title">
+          <h3 class="title">
             <div class="btn fas fa-language"></div><span>Languages</span>
-          </div>
+          </h3>
           <ul>
             <li>Russian - Native</li>
             <li>English - B2</li>
@@ -86,12 +87,12 @@
       <div class="right-col">
         <section id="about">
           <div class="wrapper">
-            <div class="title">
+            <h3 class="title">
               <div class="btn fas fa-user"></div><span>About Mysellf</span>
-            </div>
+            </h3>
             <p>I'm a high organized and self-motivated person, who is interested in frontend development.
               A lot of my skills in this sphere were acquired by self-learning. Now I am continuing my studies at
-              the university in Poland, where I have already acquired programming skills.Along with my excellent 
+              the university in Poland, where I have already acquired programming skills.Along with my excellent
               interpersonal skills and outgoing nature, I excel at collaborating effectively
               within a team. My determination is a driving force, motivating me to complete projects efficiently and
               promptly.</p>
@@ -100,9 +101,9 @@
         <section id="education">
           <div class="wrapper two-column">
             <div class="universities column">
-              <div class="title">
+              <h3 class="title">
                 <div class="btn fas fa-graduation-cap"></div><span>Education</span>
-              </div>
+              </h3>
               <p class="subtitle">Belarusian State Economic University, Minsk</p>
               <p>2011-2015</p>
               <p>Specialization: Statistics</p>
@@ -111,12 +112,12 @@
               <p>Specialization: Informatics and econometrics</p>
             </div>
             <div class="courses column">
-              <div class="title">
+              <h3 class="title">
                 <div class="btn fas fa-book"></div><span>Courses</span>
-              </div>
+              </h3>
               <ul>
                 <li>
-                  <p class="subtitle">RSSchool</p>"JavaScript/Front-end": in progress
+                  <p class="subtitle">RSSchool</p>"JavaScript/Front-end"
                 </li>
                 <li>
                   <p class="subtitle">IT-Academy</p> "Web application development in JavaScript"
@@ -133,13 +134,17 @@
         </section>
         <section id="projects">
           <div class="wrapper">
-            <div class="btn fas fa-book"></div><span>Projects</span>
+            <h3 class="title">
+              <div class="btn fas fa-book"></div><span>Projects</span>
+            </h3>
             <div class="projects"></div>
           </div>
         </section>
         <section id="experience">
           <div class="wrapper">
-            <div class="btn fas fa-briefcase"></div><span>Work experience</span>
+            <h3 class="title">
+              <div class="btn fas fa-briefcase"></div><span>Work experience</span>
+            </h3>
             <p class="subtitle">life:) Belarus (CJSC Belarussian Telecommunication Network)</p>
             <p>Economist of the 1st category</p>
             Settlements with domestic and international companies, forecasting, reporting, reconciliations, AP /
@@ -149,14 +154,16 @@
         </section>
         <section id="code">
           <div class="wrapper">
-            <div class="btn fas fa-code"></div><span>Code example</span>
+            <h3 class="title">
+              <div class="btn fas fa-code"></div><span>Code example</span>
+            </h3>
             <pre>
               <code>
       function nthFibo(n) {
         let arr = [0,1];
         if(n==1) return 0;
         else if(n==2) return 1;
-        for (let i = 2; i<=n; i++){
+        for (let i = 2; i&lt=n; i++){
           arr[i] = (arr[i-1]) + (arr[i-2])
         }
         return arr[arr.length-2]
@@ -166,7 +173,7 @@
           </div>
         </section>
       </div>
-    </div>
+    </main>
     <footer class="footer">
       <div class="footer-git">
         <div class="btn fab fa-github btn-footer"></div>
@@ -181,4 +188,5 @@
   </div>
   <script src="index.js"></script>
 </body>
+
 </html>
